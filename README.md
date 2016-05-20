@@ -12,7 +12,7 @@ sudo apt-get install python-opencv
 ```
 
 ## Prepair before run program
-1. Connect jumper wire look at table
+1.Connect jumper wire look at table
 
 | GPIO raspberry pi (pin)| ET-TEST 10P/INP (pin) |
 |:----------------------:|:---------------------:|
@@ -25,9 +25,10 @@ sudo apt-get install python-opencv
 
 credit image http://grimbodroid.blogspot.com/2012/08/following-directions-on-these-pages-1.html
 
-2. Connect USB Web Cam to Raspberry Pi
+2.Connect USB Web Cam to Raspberry Pi
 
 ## Run
+Please ensure your web cam must not run on another service.
 ```bash
 sudo python SW_capture.py 
 ```
